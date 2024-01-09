@@ -1,0 +1,6 @@
+@PatikaBookStore_HostAddress = http://localhost:5232
+
+GET {{PatikaBookStore_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
