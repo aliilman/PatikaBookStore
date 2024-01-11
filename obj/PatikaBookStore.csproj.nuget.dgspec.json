@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Ali\\Desktop\\PatikaBookStore\\PatikaBookStore\\PatikaBookStore.csproj": {}
+    "c:\\Users\\Ali\\Desktop\\PatikaBookStore\\PatikaBookStore\\PatikaBookStore.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Ali\\Desktop\\PatikaBookStore\\PatikaBookStore\\PatikaBookStore.csproj": {
+    "c:\\Users\\Ali\\Desktop\\PatikaBookStore\\PatikaBookStore\\PatikaBookStore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ali\\Desktop\\PatikaBookStore\\PatikaBookStore\\PatikaBookStore.csproj",
+        "projectUniqueName": "c:\\Users\\Ali\\Desktop\\PatikaBookStore\\PatikaBookStore\\PatikaBookStore.csproj",
         "projectName": "PatikaBookStore",
-        "projectPath": "C:\\Users\\Ali\\Desktop\\PatikaBookStore\\PatikaBookStore\\PatikaBookStore.csproj",
+        "projectPath": "c:\\Users\\Ali\\Desktop\\PatikaBookStore\\PatikaBookStore\\PatikaBookStore.csproj",
         "packagesPath": "C:\\Users\\Ali\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ali\\Desktop\\PatikaBookStore\\PatikaBookStore\\obj\\",
+        "outputPath": "c:\\Users\\Ali\\Desktop\\PatikaBookStore\\PatikaBookStore\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Ali\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -45,9 +45,17 @@
               "target": "Package",
               "version": "[12.0.1, )"
             },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
             "FluentValidation": {
               "target": "Package",
               "version": "[11.9.0, )"
+            },
+            "Microsoft.AspNetCore.Session": {
+              "target": "Package",
+              "version": "[2.2.0, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",

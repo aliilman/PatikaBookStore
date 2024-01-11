@@ -1,57 +1,81 @@
-using System;
-using System.Linq;
-using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.DependencyInjection;
 
-namespace WebApi.DbOperations
+using Microsoft.EntityFrameworkCore;
+using PatikaBookStore.Models;
+
+
+namespace PatikaBookStore.DbOperations
 {
     public class DataGenerator
     {
-        public static void Initialize(IServiceProvider serviceProvider)
+        public static void
+        Initialize(IServiceProvider serviceProvider)
         {
-            using(var context =new BookStoreDbContext(serviceProvider.GetRequiredService<DbContextOptions<BookStoreDbContext>>()))
+            using var context =
+                new BookStoreDbContext(serviceProvider.GetRequiredService<DbContextOptions<BookStoreDbContext>>());
+            if (context.Books.Any())
             {
-                if(context.Books.Any())
-                {
-                    return;
-                }
-
-                context.Books.AddRange( 
-                    new Book
-                    {
-                        //Id=1,
-                        Title="Lean Startup",
-                        GenreId=1,//Personal Growth
-                        PageCount=200,
-                        PublishDate=new DateTime(2001,06,12)
-                    },
-                    new Book
-                    {
-                        //Id=2,
-                        Title="Herland",
-                        GenreId=2,//Science Fiction
-                        PageCount=250,
-                        PublishDate=new DateTime(2010,05,23)
-                    },
-                    new Book
-                    {
-                        //Id=3,
-                        Title="Dune",
-                        GenreId=2,//Science Fiction
-                        PageCount=540,
-                        PublishDate=new DateTime(2002,12,21)
-                    },
-                    new Book
-                    {
-                       // Id=4,
-                        Title="The Murder Room: In which Three of the Greatest Detectives Use Forensic Science to Solve the World's Most Perplexing Cold Cases",
-                        GenreId=3,//True Crime
-                        PageCount=464,
-                        PublishDate=new DateTime(2009,01,01)
-                    }
-                );
-                context.SaveChanges();
+                return;
             }
+
+            context.Authors.AddRange(
+                new Author
+                {
+                    Name = "Miyamoto",
+                    Surname = "Musashi",
+                    Birthday = new DateTime(1600, 1, 1)
+                },
+                new Author
+                {
+                    Name = "Marcus",
+                    Surname = "Aurelius",
+                    Birthday = new DateTime(45, 1, 1)
+                },
+                new Author
+                {
+                    Name = "Frank",
+                    Surname = "Herbert",
+                    Birthday = new DateTime(1939, 1, 1)
+                }
+            );
+
+            context.Genres.AddRange(
+                new Genre
+                {
+                    Name = "Personal Growth"
+                },
+                new Genre
+                {
+                    Name = "Science Fiction"
+                },
+                new Genre
+                {
+                    Name = "Romance"
+                }
+                );
+
+            context.Books.AddRange(
+                new Book
+                {
+                    Title = "Lean Startup",
+                    GenreID = 1,
+                    PageCount = 200,
+                    PublishDate = new DateTime(2001, 06, 12)
+                },
+                new Book
+                {
+                    Title = "Herland",
+                    GenreID = 1,
+                    PageCount = 250,
+                    PublishDate = new DateTime(2010, 05, 23)
+                },
+                new Book
+                {
+                    Title = "Dune",
+                    GenreID = 1,
+                    PageCount = 540,
+                    PublishDate = new DateTime(2001, 12, 21)
+                });
+            context.SaveChanges();
         }
     }
 }

@@ -9,19 +9,13 @@ using Microsoft.AspNetCore.Mvc;
 using PatikaBookStore.BookOperations.DeleteBook;
 using PatikaBookStore.BookOperations.GetBookDetail;
 using PatikaBookStore.BookOperations.UpdateBook;
-using WebApi.BookOperations.DeleteBook;
-using WebApi.BookOperations.GetBookDetail;
-using WebApi.BookOperations.UpdateBook;
-using WebApi.DbOperations;
+using PatikaBookStore.DbOperations;
 
-//Fluent Validation kütüphanesini kullanarak Update, Delete ve GetById
-// metotları için validation sınıflarını yazınız. Controller içerisinde
-// metot çağrımlarından önce validasyonları çalıştırınız.
-namespace WebApi.AddControllers;
+namespace PatikaBookStore.Controllers;
 
 [ApiController]
 [Route("api/[controller]s")]
-public class bookController : ControllerBase //eğitim videso referans alınarak çözülmüştür
+public class bookController : ControllerBase
 {
     private readonly BookStoreDbContext _context;
     private readonly IMapper _mapper;
@@ -31,15 +25,18 @@ public class bookController : ControllerBase //eğitim videso referans alınarak
         _mapper = mapper;
     }
 
-    // eğitim videosunda manuel şekilde bir çzöüm gelişitirilmiş ben ödevimde automapper kullanıyoum
+
     [HttpGet("{id}")] // GET: api/books/id
     public IActionResult GetBookById(int id)
     {
         BookDetailViewModel result;
         try
         {
-            GetBookDetailQuery query = new GetBookDetailQuery(_context, _mapper);
-            query.BookId = id;
+            GetBookDetailQuery query = new GetBookDetailQuery(_context, _mapper)
+            {
+                BookId = id
+            };
+
             QueryGetBookByIdValidator validator = new();
             validator.ValidateAndThrow(query);
 
@@ -58,9 +55,12 @@ public class bookController : ControllerBase //eğitim videso referans alınarak
     {
         try
         {
-            UpdateBookCommand command = new UpdateBookCommand(_context);
-            command.BookId = id;
-            command.Model = updatedBook;
+            UpdateBookCommand command = new UpdateBookCommand(_context)
+            {
+                BookId = id,
+                Model = updatedBook
+            };
+
             UpdateBookValidator validator = new();
             validator.ValidateAndThrow(command);
 
@@ -80,9 +80,11 @@ public class bookController : ControllerBase //eğitim videso referans alınarak
     {
         try
         {
-            DeleteBookCommand command = new DeleteBookCommand(_context);
-            command.BookId = id;
-            DeleteBookCommandValidator validator= new();
+            DeleteBookCommand command = new DeleteBookCommand(_context)
+            {
+                BookId = id,
+            };
+            DeleteBookCommandValidator validator = new();
             validator.ValidateAndThrow(command);
             command.Handle();
         }

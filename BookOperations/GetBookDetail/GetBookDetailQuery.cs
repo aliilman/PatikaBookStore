@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using AutoMapper;
-using WebApi.Common;
-using WebApi.DbOperations;
+using PatikaBookStore.DbOperations;
 
-namespace WebApi.BookOperations.GetBookDetail
+
+namespace PatikaBookStore.BookOperations.GetBookDetail
 {
     public class GetBookDetailQuery
     {

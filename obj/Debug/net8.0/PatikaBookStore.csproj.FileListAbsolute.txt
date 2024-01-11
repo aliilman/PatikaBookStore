@@ -138,3 +138,4 @@ C:\Users\Ali\Desktop\PatikaBookStore\PatikaBookStore\obj\Debug\net8.0\PatikaBook
 C:\Users\Ali\Desktop\PatikaBookStore\PatikaBookStore\obj\Debug\net8.0\ref\PatikaBookStore.dll
 C:\Users\Ali\Desktop\PatikaBookStore\PatikaBookStore\bin\Debug\net8.0\FluentValidation.dll
 C:\Users\Ali\Desktop\PatikaBookStore\PatikaBookStore\obj\Debug\net8.0\PatikaBookStore.sourcelink.json
+c:\Users\Ali\Desktop\PatikaBookStore\PatikaBookStore\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll

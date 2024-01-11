@@ -1,10 +1,8 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using WebApi.DbOperations;
 
-namespace WebApi.BookOperations.DeleteBook
+
+using PatikaBookStore.DbOperations;
+
+namespace PatikaBookStore.BookOperations.DeleteBook
 {
     public class DeleteBookCommand
     {

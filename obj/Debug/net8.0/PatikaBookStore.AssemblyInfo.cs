@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PatikaBookStore")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2b55ffcccf02fa2bb181c772f970608fbbfcc3ca")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+294e84c4fdd0d4b7becc88bb7bc0a7bf79f781c8")]
 [assembly: System.Reflection.AssemblyProductAttribute("PatikaBookStore")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PatikaBookStore")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

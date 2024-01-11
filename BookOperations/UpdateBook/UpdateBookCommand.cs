@@ -1,11 +1,6 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Runtime.ConstrainedExecution;
-using System.Threading.Tasks;
-using WebApi.DbOperations;
+using PatikaBookStore.DbOperations;
 
-namespace WebApi.BookOperations.UpdateBook
+namespace PatikaBookStore.BookOperations.UpdateBook
 {
     public class UpdateBookCommand
     {
@@ -23,7 +18,7 @@ namespace WebApi.BookOperations.UpdateBook
              {
                 throw new InvalidOperationException("Kitap mevcut değil.");
             }
-            book.GenreId=Model.GenreId != default ? Model.GenreId : book.GenreId;
+            book.GenreID=Model.GenreId != default ? Model.GenreId : book.GenreID;
             book.Title=Model.Title != default ? Model.Title : book.Title;
             _dbContext.SaveChanges();
         }

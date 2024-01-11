@@ -1,6 +1,7 @@
 using System.Reflection;
 using Microsoft.EntityFrameworkCore;
-using WebApi.DbOperations;
+using PatikaBookStore.Common;
+using PatikaBookStore.DbOperations;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -12,9 +13,8 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddDbContext<BookStoreDbContext>(options=> options.UseInMemoryDatabase(databaseName :"BookStoreDB"));
 
+builder.Services.AddAutoMapper(Assembly.GetExecutingAssembly());
 
-// builder.Services.AddAutoMapper(Assembly.GetExecutingAssembly());
-          
 
 var app = builder.Build();
 
