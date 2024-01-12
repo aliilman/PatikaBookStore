@@ -1,0 +1,106 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Ali\\Desktop\\PatikaBookStore\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8CAB259B-FFC2-49E2-B606-69C975C60053}|PatikaBookStoreTest\\PatikaBookStoreTest.csproj|c:\\users\\ali\\desktop\\patikabookstore\\patikabookstoretest\\application\\genreoperations\\updategenrecommandtest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CAB259B-FFC2-49E2-B606-69C975C60053}|PatikaBookStoreTest\\PatikaBookStoreTest.csproj|solutionrelative:patikabookstoretest\\application\\genreoperations\\updategenrecommandtest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CAB259B-FFC2-49E2-B606-69C975C60053}|PatikaBookStoreTest\\PatikaBookStoreTest.csproj|c:\\users\\ali\\desktop\\patikabookstore\\patikabookstoretest\\application\\genreoperations\\getgenredetailquerytest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CAB259B-FFC2-49E2-B606-69C975C60053}|PatikaBookStoreTest\\PatikaBookStoreTest.csproj|solutionrelative:patikabookstoretest\\application\\genreoperations\\getgenredetailquerytest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CAB259B-FFC2-49E2-B606-69C975C60053}|PatikaBookStoreTest\\PatikaBookStoreTest.csproj|c:\\users\\ali\\desktop\\patikabookstore\\patikabookstoretest\\application\\bookoperations\\getbookdetailquerytest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CAB259B-FFC2-49E2-B606-69C975C60053}|PatikaBookStoreTest\\PatikaBookStoreTest.csproj|solutionrelative:patikabookstoretest\\application\\bookoperations\\getbookdetailquerytest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1212AC63-CBE7-4F4A-9D5C-F478140B087F}|PatikaBookStore\\PatikaBookStore.csproj|c:\\users\\ali\\desktop\\patikabookstore\\patikabookstore\\common\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1212AC63-CBE7-4F4A-9D5C-F478140B087F}|PatikaBookStore\\PatikaBookStore.csproj|solutionrelative:patikabookstore\\common\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CAB259B-FFC2-49E2-B606-69C975C60053}|PatikaBookStoreTest\\PatikaBookStoreTest.csproj|c:\\users\\ali\\desktop\\patikabookstore\\patikabookstoretest\\testsetup\\books.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CAB259B-FFC2-49E2-B606-69C975C60053}|PatikaBookStoreTest\\PatikaBookStoreTest.csproj|solutionrelative:patikabookstoretest\\testsetup\\books.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MappingProfile.cs",
+              "DocumentMoniker": "C:\\Users\\Ali\\Desktop\\PatikaBookStore\\PatikaBookStore\\Common\\MappingProfile.cs",
+              "RelativeDocumentMoniker": "PatikaBookStore\\Common\\MappingProfile.cs",
+              "ToolTip": "C:\\Users\\Ali\\Desktop\\PatikaBookStore\\PatikaBookStore\\Common\\MappingProfile.cs",
+              "RelativeToolTip": "PatikaBookStore\\Common\\MappingProfile.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAAACMAAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-12T15:24:35.914Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UpdateGenreCommandTest.cs",
+              "DocumentMoniker": "C:\\Users\\Ali\\Desktop\\PatikaBookStore\\PatikaBookStoreTest\\Application\\GenreOperations\\UpdateGenreCommandTest.cs",
+              "RelativeDocumentMoniker": "PatikaBookStoreTest\\Application\\GenreOperations\\UpdateGenreCommandTest.cs",
+              "ToolTip": "C:\\Users\\Ali\\Desktop\\PatikaBookStore\\PatikaBookStoreTest\\Application\\GenreOperations\\UpdateGenreCommandTest.cs",
+              "RelativeToolTip": "PatikaBookStoreTest\\Application\\GenreOperations\\UpdateGenreCommandTest.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAUwC8AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-12T15:49:56.568Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GetGenreDetailQueryTest.cs",
+              "DocumentMoniker": "C:\\Users\\Ali\\Desktop\\PatikaBookStore\\PatikaBookStoreTest\\Application\\GenreOperations\\GetGenreDetailQueryTest.cs",
+              "RelativeDocumentMoniker": "PatikaBookStoreTest\\Application\\GenreOperations\\GetGenreDetailQueryTest.cs",
+              "ToolTip": "C:\\Users\\Ali\\Desktop\\PatikaBookStore\\PatikaBookStoreTest\\Application\\GenreOperations\\GetGenreDetailQueryTest.cs",
+              "RelativeToolTip": "PatikaBookStoreTest\\Application\\GenreOperations\\GetGenreDetailQueryTest.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAuwC0AAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-12T15:49:48.868Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GetBookDetailQueryTest.cs",
+              "DocumentMoniker": "C:\\Users\\Ali\\Desktop\\PatikaBookStore\\PatikaBookStoreTest\\Application\\BookOperations\\GetBookDetailQueryTest.cs",
+              "RelativeDocumentMoniker": "PatikaBookStoreTest\\Application\\BookOperations\\GetBookDetailQueryTest.cs",
+              "ToolTip": "C:\\Users\\Ali\\Desktop\\PatikaBookStore\\PatikaBookStoreTest\\Application\\BookOperations\\GetBookDetailQueryTest.cs",
+              "RelativeToolTip": "PatikaBookStoreTest\\Application\\BookOperations\\GetBookDetailQueryTest.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAAAC4AAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-12T15:49:14.498Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Books.cs",
+              "DocumentMoniker": "C:\\Users\\Ali\\Desktop\\PatikaBookStore\\PatikaBookStoreTest\\TestSetup\\Books.cs",
+              "RelativeDocumentMoniker": "PatikaBookStoreTest\\TestSetup\\Books.cs",
+              "ToolTip": "C:\\Users\\Ali\\Desktop\\PatikaBookStore\\PatikaBookStoreTest\\TestSetup\\Books.cs",
+              "RelativeToolTip": "PatikaBookStoreTest\\TestSetup\\Books.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-12T15:47:54.592Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
