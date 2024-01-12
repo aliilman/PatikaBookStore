@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Dx6Y78Fo6hs6f91edXcCC2U85Jcu8PiCK9BPisReDhqM/I5A4UeWunsbN3qBz7Mx3eCwlGysW8MD4tR88oXKEQ==",
+  "dgSpecHash": "Inq2VPGZXh1WK3nipYOH9T+7k8HouKEJjDRYxPqikP46Vhhcgfj/7b4wWkiOiUiulsgTCiD650+hIA26eCGPVA==",
   "success": true,
-  "projectFilePath": "c:\\Users\\Ali\\Desktop\\PatikaBookStore\\PatikaBookStore\\PatikaBookStore.csproj",
+  "projectFilePath": "C:\\Users\\Ali\\Desktop\\PatikaBookStore\\PatikaBookStore\\PatikaBookStore.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Ali\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\Ali\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",

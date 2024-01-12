@@ -1,8 +1,10 @@
 
 
 using AutoMapper;
+using PatikaBookStore.AuthorOperations.CreateAuthor;
 using PatikaBookStore.AuthorOperations.GetAuthorDetail;
 using PatikaBookStore.AuthorOperations.GetAuthors;
+using PatikaBookStore.AuthorOperations.UpdateAuthor;
 using PatikaBookStore.BookOperations;
 using PatikaBookStore.BookOperations.GetBookDetail;
 using PatikaBookStore.GenreOperations;
@@ -29,6 +31,9 @@ namespace PatikaBookStore.Common
 
             CreateMap<Author, GetAuthorsQuery.AuthorsViewModel>();
             CreateMap<Author, GetAuthorDetailQuery.AuthorDetailViewModel>();
+            CreateMap<CreateAuthorCommand.CreateAuthorViewModel, Author>();
+            CreateMap<UpdateAuthorCommand.UpdateAuthorViewModel, Author>();
+            CreateMap< Author,UpdateAuthorCommand.UpdateAuthorViewModel>();
 
 
         }

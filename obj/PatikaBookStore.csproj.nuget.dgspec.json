@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\Ali\\Desktop\\PatikaBookStore\\PatikaBookStore\\PatikaBookStore.csproj": {}
+    "C:\\Users\\Ali\\Desktop\\PatikaBookStore\\PatikaBookStore\\PatikaBookStore.csproj": {}
   },
   "projects": {
-    "c:\\Users\\Ali\\Desktop\\PatikaBookStore\\PatikaBookStore\\PatikaBookStore.csproj": {
+    "C:\\Users\\Ali\\Desktop\\PatikaBookStore\\PatikaBookStore\\PatikaBookStore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Ali\\Desktop\\PatikaBookStore\\PatikaBookStore\\PatikaBookStore.csproj",
+        "projectUniqueName": "C:\\Users\\Ali\\Desktop\\PatikaBookStore\\PatikaBookStore\\PatikaBookStore.csproj",
         "projectName": "PatikaBookStore",
-        "projectPath": "c:\\Users\\Ali\\Desktop\\PatikaBookStore\\PatikaBookStore\\PatikaBookStore.csproj",
+        "projectPath": "C:\\Users\\Ali\\Desktop\\PatikaBookStore\\PatikaBookStore\\PatikaBookStore.csproj",
         "packagesPath": "C:\\Users\\Ali\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Ali\\Desktop\\PatikaBookStore\\PatikaBookStore\\obj\\",
+        "outputPath": "C:\\Users\\Ali\\Desktop\\PatikaBookStore\\PatikaBookStore\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Ali\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -35,6 +35,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
